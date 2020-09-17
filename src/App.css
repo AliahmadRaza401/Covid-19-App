@@ -1,0 +1,27 @@
+thead.gt1 {
+  background-color: #17a2b8;
+}
+.app{
+  background-color: #17a2b88c;
+}
+tbody.ct1 {
+  background-color: white;
+}
+th#c1,#c2 {
+  color: yellow;
+}
+th#c3, #c4 {
+  color: #b10606;
+}
+th#c5, #c6 {
+  color: #00f900;
+}
+h1 {
+  padding-top: 3%;
+  padding-bottom: 1%;
+  color: #343a40;
+  font-family: 'Neuton', serif;
+  font-weight: bold;
+  margin-left: 2%;
+  
+}
