@@ -32,8 +32,23 @@ h4 {
 }
 
 /***********************************/
-@media (max-width: 768px){
+@media (min-width: 360px) and (max-width: 700px) {
   .app {
     width: 236%;
+}
+.container {
+  width: 70%;
+  margin: 0%;
+  padding: 1%;
+}
+h1.title {
+  font-size: 238%;
+}
+.ui.icon.input {
+  margin: 0% 0% 4% 0%;
+}
+h1.title {
+  font-size: 197%;
+  margin-left: 0%;
 }
 }
