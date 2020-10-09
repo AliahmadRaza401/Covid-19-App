@@ -1,5 +1,5 @@
 import React from 'react';
-
+import 'semantic-ui-css/semantic.min.css';
 
 
 const Global = (props) =>{
@@ -7,7 +7,8 @@ const Global = (props) =>{
   const {NewConfirmed, TotalConfirmed, NewDeaths, TotalDeaths, NewRecovered, TotalRecovered} = props;
 
  return ( 
-    <div className="container mt-3">
+    <div className="container ">
+       <h1 className="title"> COVID-19 updates</h1>
       <table class="table  text-center " id="gobalTable">
   <thead className="gt1">
     <tr>
@@ -38,6 +39,7 @@ const Global = (props) =>{
     </tr>
   </thead>
 </table>
+   
 
 
     </div>

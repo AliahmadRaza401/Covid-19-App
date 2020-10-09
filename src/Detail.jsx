@@ -8,6 +8,7 @@ const Detail = () =>{
  
  const [global, setGlobal] = useState ([]);
  const [cont, setCont] = useState([]);
+ const [filter, setfilter] = useState("");
 
  useEffect( () =>{
   loadData();
@@ -21,11 +22,13 @@ const Detail = () =>{
    setCont(result.data.Countries);
    console.log(cont.Country);
  };
+
+
  
 
  return ( 
     <div className="container"> 
-    <h1> COVID-19 updates</h1>
+
       <Global
           NewConfirmed={global.NewConfirmed}
           TotalConfirmed={global.TotalConfirmed}
